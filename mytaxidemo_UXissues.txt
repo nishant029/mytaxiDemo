@@ -1,0 +1,31 @@
+mytaxi demo UX/Functional issues - 
+
+Login Page -
+1) Login button seems to be inactive, even after entering username and password.
+2) No client side error is thrown, if any of the field i.e. username or password, is left blank.
+3) Error message should be specific to username and password. (Login Failed displayed)
+4) Show/hide password icon should be there, so that it becomes comfortable for user to know, what he/she is typing.
+5) Login failed error is coming, that too is getting hidden behind soft keyboard.
+6) On pressing the device back key, the app is not exiting(or closed), it remains on the login page only.
+7) There should be back arrow key on the app only.
+8) Once logged in, username should be saven in cookies, so on next login attempt, username should come prefilled.
+9) Also "Remember Me" check box should be there, so that there is an option to save details of the user.
+10) Forgot password functionality is not there, if user forgets his/her password, then is no option to recover.
+11) Error handling not present on login screen, if no network is there in the device.
+
+Search Page - 
+1) In search field if we type "sa", then it autosuggests many options, now if I close the soft keyboard, it closes to autosuggestion as well. This should remain open, then only user can
+see all options.
+2) There should be some tooltip that gives information to user, what this screen is for, e.g - Search for drivers here
+3) Autosuggestion opened should remain in open state, even if I get a call on phone or have to go to different app and come back to search page.
+4) The GPS option in bottom is disabled.
+5) Font size if users displayed in autosuggestion is quite big, should be same in which we are typing.
+6) There is no clear button on the search field, if I have entered something wrong then there should be an option to remove it from that field only.
+7) Search icon should come on the softkeyboard, whenever I start typing in the search field.
+8) Soft keyboard is not getting removed, if clicked on hamburger icon of navigation drawer, post performing driver search.
+9) On clicking the username post opening navigation drawer, user is not able to go on profile page, there is no such functionality.
+10) Searched charater remain there only, if logged out and login again.
+
+Driver Profile Page - 
+1) Header section is showing white patch, that should be removed.
+2) Address of driver is getting cropped when different driver profile visited multiple times, some dots are coming in 2nd line.
