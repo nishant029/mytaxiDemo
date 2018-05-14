@@ -91,7 +91,6 @@ public class test_espresso_1 {
                                 2),
                         isDisplayed()));
         floatingActionButton.perform(click());
-
     }
 
     private static Matcher<View> childAtPosition(
